@@ -23,4 +23,4 @@ You can use either the `atlas.hdd` or `atlas.iso` file to launch Atlas.
 
 Flashing Atlas to a USB drive and launching it on real hardware *may* work, though functionality cannot be guaranteed.
 
-Any feedback or bug reports are welcome! I hope you have fun using Atlas :)
+Any feedback or bug reports are welcome - please open an issue! I hope you have fun using Atlas :)
