@@ -19,4 +19,8 @@ To launch Atlas in Qemu with a real USB drive (e.g, /dev/sdc on Linux), you can 
 ```bash
 qemu-system-x86_64   -enable-kvm   -cpu host   -machine q35   -m 8G   -drive file=atlas.iso,format=raw,if=ide   -device intel-hda   -device hda-duplex   -device qemu-xhci   -drive if=none,id=usb,file=/dev/sdc,format=raw,cache=none   -device usb-storage,drive=usb   -device usb-kbd   -device usb-mouse
 ```
-You can use either the `
+You can use either the `atlas.hdd` or `atlas.iso` file to launch Atlas.
+
+Flashing Atlas to a USB drive and launching it on real hardware *may* work, though functionality cannot be guaranteed.
+
+Any feedback or bug reports are welcome! I hope you have fun using Atlas :)
